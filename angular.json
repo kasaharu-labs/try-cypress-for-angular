@@ -120,8 +120,9 @@
           "builder": "@briebug/cypress-schematic:cypress",
           "options": {
             "devServerTarget": "try-cypress-for-angular:serve",
-            "watch": true,
-            "headless": false
+            "watch": false,
+            "browser": "chrome",
+            "headless": true
           },
           "configurations": {
             "production": {
